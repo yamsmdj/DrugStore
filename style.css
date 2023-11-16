@@ -9,7 +9,7 @@ nav{
 }
 .navbar{
     justify-content: center;
-    width: 40%;
+    width: 50%;
     
 }
 .mohammed{
@@ -48,7 +48,7 @@ nav img{
 li img {
     height: 50px;
     width: 60px;
-    margin-left: 28px;
+    margin-left: 34px;
 }
 .presentation{
     width: 100%;
@@ -105,6 +105,7 @@ h4{
     color:rgb(28, 153, 175);
     text-align: center;
     padding: 20px;
+    display: flex;
 }
 #direction1, #direction2{
     border: 1px rgb(15, 213, 248) solid;
@@ -112,10 +113,13 @@ h4{
 }
 .container_direction{
     display: flex;
-    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+
 }
 .direction{
     display: flex;
+    margin: auto;
 }
 .explication{
     flex-direction: column;
@@ -137,4 +141,72 @@ h4{
 
 #responsable1 , #responsable2 , #responsable3{
     border: 1px rgb(15, 213, 248) solid;
+}
+
+.container_medical{
+    display: flex;  
+    flex-wrap: wrap;
+    height: 800px;
+    margin: auto;
+    width: 80%;
+}
+
+.medecin{
+    border: 1px rgb(15, 213, 248) solid;
+    width: 22%;
+    margin: auto;
+    justify-content: center;
+}
+.medecin img{
+    margin-left: 30px;
+}
+.poste{
+    color:rgb(15, 213, 248)
+}
+.foot{
+    background-image: url(images/bg_footer.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    color: #6c6b6b;
+}
+.foot a{
+ color: rgb(216, 215, 215);
+}
+.foottop{
+    display: flex;
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    justify-content: space-around;
+}
+.block{
+    flex-direction: column;
+    width: 20%;
+    height: 70%;
+    line-height: 1.8em;
+}
+.footdown{
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footdown a {
+    display: flex;
+    align-items: center;
+color: aliceblue;
+padding: 5px;
+}
+
+h4::before,
+h4::after{
+    content: "";
+    border-bottom: 4px solid rgb(15, 213, 248);
+    flex: 1;
+    margin: 0.4em;
+}
+.tkt{
+    width: 80%;
+    margin: auto;
 }
